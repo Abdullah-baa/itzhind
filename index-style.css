@@ -18,7 +18,7 @@ html {
 
 /* إعدادات للجسم */
 body {
-    background-color: #06353b;
+    
     color: white;
 }
 
@@ -64,6 +64,7 @@ section {
 
 /* إعدادات للقسم الرئيسي */
 .home {
+    background-color: #06353b;
     display: flex;
     align-items: center;
     padding: 0 9%;
@@ -211,6 +212,9 @@ span {
 }
 
 /* إعدادات لقسم الخدمات */
+.services{
+    background-color: #06353b;
+}
 .serv-content {
     padding: 0 8%;
 }
@@ -332,6 +336,20 @@ span {
 }
 
 
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+
 /* تحسينات للأجهزة التي تقل عرضها عن 600 بكسل (الجوالات) */
 @media (max-width: 600px) {
    
@@ -378,3 +396,4 @@ nav a {
 }
 
 }
+
